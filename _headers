@@ -1,0 +1,63 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://analytics.ahrefs.com https://*.ahrefs.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://calcsprint.com; connect-src 'self' https://analytics.ahrefs.com https://*.ahrefs.com; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests
+
+/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/blog/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/de/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/de/blog/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/es/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/es/blog/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/ru/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/ru/blog/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/zh/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/zh/blog/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/404.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/robots.txt
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/sitemap.xml
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/*.css
+  Cache-Control: public, max-age=604800
+
+/assets/*.js
+  Cache-Control: public, max-age=604800
+
+/assets/icons/*.png
+  Cache-Control: public, max-age=2592000
+
+/*.ico
+  Cache-Control: public, max-age=604800
+
+/*.webmanifest
+  Cache-Control: public, max-age=86400

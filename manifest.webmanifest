@@ -1,0 +1,24 @@
+{
+  "id": "/",
+  "name": "CalcSprint",
+  "short_name": "CalcSprint",
+  "description": "Fast mental math drills with four levels and localized practice tips.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#5a58ff",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
