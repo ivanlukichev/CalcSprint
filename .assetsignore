@@ -5,5 +5,5 @@
 .htaccess
 Archive.zip
 README.md
-wrangler.jsonc
+wrangler.toml
 **/node_modules
