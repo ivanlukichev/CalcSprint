@@ -1,0 +1,9 @@
+.git
+.gitignore
+.assetsignore
+.DS_Store
+.htaccess
+Archive.zip
+README.md
+wrangler.jsonc
+**/node_modules
