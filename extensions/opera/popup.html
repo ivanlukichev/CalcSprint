@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CalcSprint</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="popup-shell" aria-live="polite">
+    <section class="screen screen--welcome" data-screen="welcome">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true">CS</div>
+        <div>
+          <p class="eyebrow" data-copy="welcomeEyebrow">Browser extension</p>
+          <h1>CalcSprint</h1>
+        </div>
+      </div>
+
+      <p class="subtitle" data-copy="welcomeSubtitle">Train your brain in your browser</p>
+
+      <div class="hero-stats" aria-label="Saved progress">
+        <article class="stat-card">
+          <span class="stat-card__label" data-copy="bestScore">Best score</span>
+          <strong class="stat-card__value" id="welcomeBestScore">0</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-card__label" data-copy="sessions">Sessions</span>
+          <strong class="stat-card__value" id="welcomeSessions">0</strong>
+        </article>
+      </div>
+
+      <div class="button-stack">
+        <button class="button button--primary" id="startButton" type="button" data-copy="start">Start</button>
+        <button class="button button--ghost" id="welcomeWebsiteButton" type="button" data-copy="websiteMoreLevels">More levels on website</button>
+      </div>
+    </section>
+
+    <section class="screen screen--difficulty" data-screen="difficulty" hidden>
+      <div class="screen-head">
+        <div>
+          <p class="eyebrow" data-copy="sprintMode">Sprint mode</p>
+          <h2 data-copy="chooseDifficulty">Choose difficulty</h2>
+        </div>
+        <span class="mode-badge" data-copy="sprintDuration">Sprint 60 sec</span>
+      </div>
+
+      <div class="difficulty-grid" id="difficultyGrid" role="radiogroup" aria-label="Choose difficulty">
+        <button class="difficulty-card" type="button" data-difficulty="easy" role="radio" aria-checked="false">
+          <span class="difficulty-card__title" data-copy="easyTitle">Easy</span>
+          <span class="difficulty-card__copy" data-copy="easyDescription">Addition and subtraction</span>
+        </button>
+        <button class="difficulty-card" type="button" data-difficulty="medium" role="radio" aria-checked="false">
+          <span class="difficulty-card__title" data-copy="mediumTitle">Medium</span>
+          <span class="difficulty-card__copy" data-copy="mediumDescription">Multiplication + mixed arithmetic</span>
+        </button>
+        <button class="difficulty-card" type="button" data-difficulty="hard" role="radio" aria-checked="false">
+          <span class="difficulty-card__title" data-copy="hardTitle">Hard</span>
+          <span class="difficulty-card__copy" data-copy="hardDescription">Faster mixed math</span>
+        </button>
+      </div>
+
+      <div class="button-stack button-stack--inline">
+        <button class="button button--secondary" id="backToWelcomeButton" type="button" data-copy="back">Back</button>
+        <button class="button button--primary" id="startSprintButton" type="button" data-copy="startSprint">Start Sprint</button>
+      </div>
+    </section>
+
+    <section class="screen screen--game" data-screen="game" hidden>
+      <div class="game-topline">
+        <div>
+          <p class="eyebrow" data-copy="timeLeft">Time left</p>
+          <div class="timer" id="gameTimer">60s</div>
+        </div>
+        <div class="question-pill" id="questionCounter">Question 1</div>
+      </div>
+
+      <div class="metrics" aria-label="Current stats">
+        <article class="metric">
+          <span class="metric__label" data-copy="correct">Correct</span>
+          <strong class="metric__value" id="correctCount">0</strong>
+        </article>
+        <article class="metric">
+          <span class="metric__label" data-copy="wrong">Wrong</span>
+          <strong class="metric__value" id="wrongCount">0</strong>
+        </article>
+        <article class="metric">
+          <span class="metric__label" data-copy="streak">Streak</span>
+          <strong class="metric__value" id="streakCount">0</strong>
+        </article>
+      </div>
+
+      <section class="question-card" aria-labelledby="questionPrompt">
+        <p class="question-card__difficulty" id="gameDifficultyLabel">Easy</p>
+        <h2 class="question-card__problem" id="questionPrompt">7 + 5</h2>
+        <p class="feedback" id="answerFeedback" role="status" aria-live="polite" data-copy="gameHint">Solve as many as you can.</p>
+      </section>
+
+      <form class="answer-form" id="answerForm" novalidate>
+        <label class="sr-only" for="answerInput" data-copy="typeYourAnswer">Type your answer</label>
+        <input
+          id="answerInput"
+          class="answer-input"
+          type="text"
+          inputmode="numeric"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Type your answer"
+          data-copy-placeholder="typeYourAnswer"
+        />
+        <button class="button button--primary" id="submitButton" type="submit" data-copy="submit">Submit</button>
+      </form>
+
+      <button class="text-link text-link--footer" id="gameWebsiteButton" type="button" data-copy="continueFullSite">Continue training on the full site</button>
+    </section>
+
+    <section class="screen screen--result" data-screen="result" hidden>
+      <div class="screen-head">
+        <div>
+          <p class="eyebrow" data-copy="sprintComplete">Sprint complete</p>
+          <h2 data-copy="timesUp">Time&rsquo;s up!</h2>
+        </div>
+        <span class="result-chip" id="resultDifficulty">Easy</span>
+      </div>
+
+      <div class="result-grid">
+        <article class="result-card result-card--accent">
+          <span class="result-card__label" data-copy="yourScore">Your score</span>
+          <strong class="result-card__value" id="resultScore">0</strong>
+        </article>
+        <article class="result-card">
+          <span class="result-card__label" data-copy="wrongAnswers">Wrong answers</span>
+          <strong class="result-card__value" id="resultWrong">0</strong>
+        </article>
+        <article class="result-card">
+          <span class="result-card__label" data-copy="bestScore">Best score</span>
+          <strong class="result-card__value" id="resultBestScore">0</strong>
+        </article>
+        <article class="result-card">
+          <span class="result-card__label" data-copy="bestStreak">Best streak</span>
+          <strong class="result-card__value" id="resultBestStreak">0</strong>
+        </article>
+      </div>
+
+      <p class="result-note" id="resultSummary" data-copy="resultNote">Quick rounds add up fast.</p>
+
+      <div class="button-stack">
+        <button class="button button--primary" id="playAgainButton" type="button" data-copy="playAgain">Play Again</button>
+        <button class="button button--secondary" id="changeDifficultyButton" type="button" data-copy="changeDifficulty">Change Difficulty</button>
+        <button class="button button--ghost" id="resultWebsiteButton" type="button" data-copy="unlockMoreChallenges">Unlock more challenges on the website</button>
+      </div>
+    </section>
+
+    <footer class="popup-footer">
+      <button class="text-link" id="footerWebsiteButton" type="button" data-copy="websiteMoreLevels">More levels on website</button>
+    </footer>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>
