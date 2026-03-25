@@ -1,6 +1,6 @@
 # CalcSprint
 
-CalcSprint is a lightweight browser extension for quick mental math practice right inside Chrome or Edge.
+CalcSprint is a lightweight browser extension for quick mental math practice right inside Chrome, Edge, or Firefox.
 
 It is designed for short and focused speed rounds: open the popup, pick a difficulty, solve as many tasks as you can in 60 seconds, and keep improving your local high score.
 
@@ -17,21 +17,19 @@ No accounts or setup are required after installation.
 
 ## Features
 
-- Chrome / Edge browser extension
+- Chrome / Edge / Firefox browser extension
 - Clean popup UI with welcome, difficulty, game, and result screens
 - `Easy`, `Medium`, and `Hard` difficulty levels
 - 60-second sprint mode
 - Keyboard-first flow with `Enter` submit and autofocus
-- Local best scores and streaks via `chrome.storage.local`
+- Local best scores and streaks via browser storage
 - Calm CTA to continue training on the full site
 
 ## Quick Install
 
 1. Download or clone this repository.
-2. Open `chrome://extensions/` or `edge://extensions/`.
-3. Turn on `Developer mode`.
-4. Click `Load unpacked`.
-5. Select this repository folder.
+2. In Chrome or Edge, open `chrome://extensions/` or `edge://extensions/`, enable `Developer mode`, click `Load unpacked`, and select this repository folder.
+3. In Firefox, open `about:debugging#/runtime/this-firefox`, click `Load Temporary Add-on...`, and select `manifest.json` from this repository folder.
 
 ## Files
 

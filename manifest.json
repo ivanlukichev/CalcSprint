@@ -10,6 +10,12 @@
     "default_title": "CalcSprint",
     "default_popup": "popup.html"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "calcsprint@lukichev.biz",
+      "strict_min_version": "109.0"
+    }
+  },
   "icons": {
     "16": "icons/16.png",
     "32": "icons/32.png",
