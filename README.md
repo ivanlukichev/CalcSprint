@@ -1,27 +1,118 @@
-# CalcSprint
+# ⚡ CalcSprint
 
-CalcSprint is a fast mental math product built around the website at [calcsprint.com](https://calcsprint.com/).
+**CalcSprint** is a fast, minimal mental math trainer built for daily focus and speed.
 
-The main experience lives on the site: quick arithmetic training, multiple difficulty levels, localized pages, and a clean full-screen practice flow. Browser extensions are part of the same ecosystem, giving users a compact popup mode for short daily sprints.
+👉 https://calcsprint.com/
 
-## Official Links
+---
 
-🌐 Website: [calcsprint.com](https://calcsprint.com/)
-- Browser extension page: [calcsprint.com/browser-extension/](https://calcsprint.com/browser-extension/)
-- Chrome Web Store: [CalcSprint extension](https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai)
+## 🚀 What is CalcSprint?
 
-## What CalcSprint Includes
+CalcSprint is a **browser-based arithmetic training tool** designed for short, effective sessions.
 
-- Full website experience for focused mental math practice
-- Browser extension for quick-access popup sprints
-- Blog content and supporting product pages
-- One shared product ecosystem across site and extension
+No accounts. No distractions. Just numbers.
 
-CalcSprint is website-first. The extension complements the site, not replaces it.
+- ⚡ Instant tasks
+- 🎯 4 difficulty levels
+- 🔁 Endless problem generation
+- 🌍 Multi-language support (EN / RU / ES / DE / ZH)
+- 📱 Works perfectly on mobile & desktop
 
-## Author
+It’s built for **quick daily sprints**, not long study sessions.
+
+---
+
+## 🧠 Why it works
+
+Most math apps are overloaded.
+
+CalcSprint focuses on:
+- speed
+- repetition
+- pattern recognition
+
+This creates a **clean mental loop**:
+
+> see → solve → repeat
+
+No friction. No noise. Just training.
+
+---
+
+## 🌐 Product ecosystem
+
+CalcSprint is not just a site — it's a small ecosystem:
+
+### Website
+- Full-screen practice mode
+- Blog with mental math tips
+- Multi-language versions
+
+👉 https://calcsprint.com/
+
+---
+
+## 🧩 Browser Extensions
+
+CalcSprint also includes lightweight browser extensions for quick access and daily micro-training.
+
+### Available now
+
+- 🟢 **Chrome Extension**  
+  👉 https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai  
+  🔗 Source: https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/chromium
+
+---
+
+### Coming soon
+
+- 🟡 **Firefox Extension**  
+  🔗 Source: https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/firefox 
+
+- 🟡 **Opera Extension**  
+  🔗 Source: https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/opera
+
+---
+
+## ⚙️ Tech
+
+- Vanilla JavaScript (no frameworks)
+- Static architecture (no backend)
+- PWA-ready
+- SEO-optimized (hreflang, sitemap, localization)
+
+---
+
+## 🎯 Philosophy
+
+CalcSprint follows a simple idea:
+
+> **Short sessions > long sessions**
+
+Train your brain like you train your body:
+- small reps
+- consistent effort
+- no overthinking
+
+---
+
+## 👨‍💻 Author
 
 Created by **Ivan Lukichev**
 
-More projects:  
-[lukichev.biz](https://lukichev.biz/)
+- 🌐 https://lukichev.biz/
+- 🚀 SEO, micro-products, experiments
+
+---
+
+## ⭐ Support
+
+If you like the idea:
+
+- ⭐ Star the repo  
+- 🌍 Try it: https://calcsprint.com/  
+- 🧠 Do a 2-minute sprint  
+
+---
+
+**Train fast. Think faster.**
