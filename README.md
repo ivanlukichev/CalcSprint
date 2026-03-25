@@ -28,16 +28,15 @@ No accounts or setup are required after installation.
 ## Quick Install
 
 1. Download or clone this repository.
-2. In Chrome or Edge, open `chrome://extensions/` or `edge://extensions/`, enable `Developer mode`, click `Load unpacked`, and select this repository folder.
-3. In Firefox, open `about:debugging#/runtime/this-firefox`, click `Load Temporary Add-on...`, and select `manifest.json` from this repository folder.
+2. In Chrome or Edge, open `chrome://extensions/` or `edge://extensions/`, enable `Developer mode`, click `Load unpacked`, and select the `extensions/chromium` folder.
+3. In Firefox, open `about:debugging#/runtime/this-firefox`, click `Load Temporary Add-on...`, and select `extensions/firefox/manifest.json`.
 
 ## Files
 
-- `manifest.json`
-- `popup.html`
-- `popup.css`
-- `popup.js`
-- `icons/`
+- `extensions/chromium/`
+- `extensions/firefox/`
+
+Each package is self-contained and ready to load as an unpacked extension for its target browser.
 
 ## Philosophy
 
