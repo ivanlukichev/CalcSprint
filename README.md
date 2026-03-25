@@ -1,142 +1,55 @@
 # CalcSprint
 
-CalcSprint is a lightweight mental math product with two touchpoints:
+CalcSprint is a lightweight browser extension for quick mental math practice right inside Chrome or Edge.
 
-- a static website for full-length training at `calcsprint.com`
-- a browser extension popup for quick 60-second sprints inside Chrome or Edge
+It is designed for short and focused speed rounds: open the popup, pick a difficulty, solve as many tasks as you can in 60 seconds, and keep improving your local high score.
 
-The extension is designed as a small but polished portfolio project: clean MV3 architecture, focused UX, local persistence, and a soft bridge from the popup to the full site.
+🌐 Website  
+https://calcsprint.com
 
-## Extension Summary
+## About
 
-Short description:
+CalcSprint is built for short, fast, and distraction-free brain training.
 
-> Quick math training in your browser with speed rounds and local high scores.
+The extension opens as a compact popup and turns a spare minute into a quick mental math sprint. It keeps the experience simple, smooth, and useful on its own, while gently connecting the user to the full website for more challenges.
 
-Alternative store-friendly descriptions:
+No accounts or setup are required after installation.
 
-- Fast mental math practice in a browser popup with local best scores.
-- Speed math rounds for quick focus breaks, streaks, and saved progress.
-- Train mental arithmetic in 60-second sprints without leaving your tab flow.
+## Features
 
-## What The Extension Does
+- Chrome / Edge browser extension
+- Clean popup UI with welcome, difficulty, game, and result screens
+- `Easy`, `Medium`, and `Hard` difficulty levels
+- 60-second sprint mode
+- Keyboard-first flow with `Enter` submit and autofocus
+- Local best scores and streaks via `chrome.storage.local`
+- Calm CTA to continue training on the full site
 
-- Welcome screen with a calm CTA to the full website
-- Difficulty selection for `Easy`, `Medium`, and `Hard`
-- One fast MVP mode: `Sprint 60 sec`
-- Keyboard-first gameplay with `Enter` submit and autofocus
-- Clean task generation tuned for mental math, not worksheet-style overload
-- Session stats: correct answers, wrong answers, streak, question count
-- Local persistence via `chrome.storage.local`
-- Saved best score overall
-- Saved best score by difficulty
-- Saved best streak overall
-- Saved selected difficulty
-- Saved lifetime sessions, correct answers, and wrong answers
+## Quick Install
 
-## Project Structure
-
-```text
-.
-├── extension/
-│   ├── manifest.json
-│   ├── popup.html
-│   ├── popup.css
-│   ├── popup.js
-│   └── icons/
-│       ├── 16.png
-│       ├── 32.png
-│       ├── 48.png
-│       └── 128.png
-├── assets/
-├── blog/
-├── de/
-├── es/
-├── ru/
-├── zh/
-├── index.html
-└── README.md
-```
-
-## Browser Extension Tech
-
-- Manifest V3
-- Plain HTML, CSS, and JavaScript
-- No build step
-- No backend
-- No external runtime dependencies
-- Local-only data storage through `chrome.storage.local`
-
-## Install In Chrome Or Edge
-
-1. Clone or download this repository.
-2. Open `chrome://extensions/` in Chrome or `edge://extensions/` in Edge.
-3. Enable `Developer mode`.
+1. Download or clone this repository.
+2. Open `chrome://extensions/` or `edge://extensions/`.
+3. Turn on `Developer mode`.
 4. Click `Load unpacked`.
-5. Select the [`extension`](/Users/ivanlukichev/Documents/Codex/CalcSprint/extension) folder.
-6. Pin `CalcSprint` if you want one-click access from the toolbar.
+5. Select this repository folder.
 
-After installation, click the extension icon to open the popup trainer.
+## Files
 
-## Local Development
+- `manifest.json`
+- `popup.html`
+- `popup.css`
+- `popup.js`
+- `icons/`
 
-The extension does not need a build step.
+## Philosophy
 
-- Extension workflow: edit files in [`extension`](/Users/ivanlukichev/Documents/Codex/CalcSprint/extension) and click `Reload` on the extensions page.
-- Quick UI preview: open [`popup.html`](/Users/ivanlukichev/Documents/Codex/CalcSprint/extension/popup.html) directly in a browser for layout checks.
-- Full storage behavior: test inside Chrome or Edge as an unpacked extension, because that is where `chrome.storage.local` is available.
+CalcSprint follows the idea of small web products that do one thing well.
 
-The marketing site in the repo is also static and can be served from the root with any simple static server.
+Open the extension, solve a few problems, and improve calculation speed without friction.
 
-## Extension Architecture
+## Author
 
-The popup logic is intentionally split into small responsibilities inside [`popup.js`](/Users/ivanlukichev/Documents/Codex/CalcSprint/extension/popup.js):
+Created by **Ivan Lukichev**
 
-- app state
-- task generation
-- game timer
-- answer submission
-- score persistence
-- UI rendering
-- website link handling
-
-This keeps the MVP small while making future upgrades easy, including Firefox adaptation, extra modes, theme options, or localization.
-
-## Adapting The Website Link
-
-The website CTA target lives in one place:
-
-- [`popup.js`](/Users/ivanlukichev/Documents/Codex/CalcSprint/extension/popup.js)
-
-Update the `WEBSITE_URL` constant to point the extension at another production site, staging domain, or landing page.
-
-## Existing Site
-
-The root of this repository contains the static website for `calcsprint.com`.
-
-Stack:
-
-- Plain HTML/CSS/JS
-- No build step
-- Cloudflare Pages-compatible `_redirects` and `_headers`
-
-Cloudflare Pages settings:
-
-- Framework preset: `None`
-- Build command: none
-- Build output directory: `/`
-
-Domain notes:
-
-- Path redirects and security/cache headers are handled by `_redirects` and `_headers`.
-- Redirecting `www.calcsprint.com` to `calcsprint.com` should be configured in Cloudflare with Bulk Redirects after the custom domain is attached.
-
-## Future Enhancements
-
-- Sound toggle
-- Light and dark theme switch
-- Daily challenge stub
-- More detailed lifetime stats
-- Extra sprint formats and longer rounds
-- Localization layer on top of the existing English UI copy
-- Firefox-specific packaging pass
+More projects:  
+https://lukichev.biz/

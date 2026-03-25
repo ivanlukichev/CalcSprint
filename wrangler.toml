@@ -1,8 +1,0 @@
-name = "calcsprintcom"
-compatibility_date = "2026-03-21"
-workers_dev = true
-
-[assets]
-directory = "."
-html_handling = "auto-trailing-slash"
-not_found_handling = "404-page"
