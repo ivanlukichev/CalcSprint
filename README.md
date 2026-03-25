@@ -6,7 +6,7 @@ The main experience lives on the site: quick arithmetic training, multiple diffi
 
 ## Official Links
 
-- Website: [calcsprint.com](https://calcsprint.com/)
+🌐 Website: [calcsprint.com](https://calcsprint.com/)
 - Browser extension page: [calcsprint.com/browser-extension/](https://calcsprint.com/browser-extension/)
 - Chrome Web Store: [CalcSprint extension](https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai)
 
