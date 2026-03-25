@@ -101,7 +101,6 @@ Train your brain like you train your body:
 Created by **Ivan Lukichev**
 
 - 🌐 https://lukichev.biz/
-- 🚀 SEO, micro-products, experiments
 
 ---
 
