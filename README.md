@@ -7,6 +7,12 @@ It is designed for short and focused speed rounds: open the popup, pick a diffic
 🌐 Website  
 https://calcsprint.com
 
+🧩 Extension landing page  
+https://calcsprint.com/browser-extension/
+
+🛍️ Chrome Web Store  
+https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai
+
 ## About
 
 CalcSprint is built for short, fast, and distraction-free brain training.
@@ -14,6 +20,11 @@ CalcSprint is built for short, fast, and distraction-free brain training.
 The extension opens as a compact popup and turns a spare minute into a quick mental math sprint. It keeps the experience simple, smooth, and useful on its own, while gently connecting the user to the full website for more challenges.
 
 No accounts or setup are required after installation.
+
+CalcSprint works as one product with two clear modes:
+
+- the browser extension is built for quick popup sprints and short daily practice
+- the website is the fuller CalcSprint experience with more space, more depth, and more supporting content
 
 ## Features
 
