@@ -45,9 +45,9 @@ CalcSprint works as one product with two clear modes:
 
 ## Files
 
-- `extensions/chromium/`
-- `extensions/opera/`
-- `extensions/firefox/`
+- [`extensions/chromium/`](https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/chromium)
+- [`extensions/opera/`](https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/opera)
+- [`extensions/firefox/`](https://github.com/ivanlukichev/CalcSprint/tree/main/extensions/firefox)
 
 Each package is self-contained and ready to load as an unpacked extension for its target browser.
 
