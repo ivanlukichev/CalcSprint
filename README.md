@@ -16,6 +16,8 @@
   <a href="https://calcsprint.com/blog/"><strong>Math Blog</strong></a>
   ·
   <a href="https://calcsprint.com/browser-extension/"><strong>Browser Extension</strong></a>
+  ·
+  <a href="https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai"><strong>Chrome Extension</strong></a>
 </p>
 
 <p align="center">
@@ -40,6 +42,15 @@ This public repository is a GitHub showcase for the live product. It is meant to
 | Russian | [calcsprint.com/ru/](https://calcsprint.com/ru/) | Localized home page |
 | German | [calcsprint.com/de/](https://calcsprint.com/de/) | Localized home page |
 | Spanish | [calcsprint.com/es/](https://calcsprint.com/es/) | Localized home page |
+
+## Extension Install Links
+
+| Browser | Status | Install |
+| --- | --- | --- |
+| Chrome | Live | [Install from Chrome Web Store](https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai) |
+| Edge | Coming soon | Use the [browser extension page](https://calcsprint.com/browser-extension/) for launch updates |
+| Firefox | Coming soon | Use the [browser extension page](https://calcsprint.com/browser-extension/) for launch updates |
+| Opera | Coming soon | Use the [browser extension page](https://calcsprint.com/browser-extension/) for launch updates |
 
 ## Why It Feels Different
 
@@ -71,5 +82,6 @@ This public repository is a GitHub showcase for the live product. It is meant to
 <p>
   <a href="https://calcsprint.com/"><strong>Open CalcSprint</strong></a><br>
   <a href="https://calcsprint.com/blog/">Read the Math Blog</a><br>
-  <a href="https://calcsprint.com/browser-extension/">See the Browser Extension</a>
+  <a href="https://calcsprint.com/browser-extension/">See the Browser Extension</a><br>
+  <a href="https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai">Install the Chrome Extension</a>
 </p>
