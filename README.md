@@ -51,7 +51,7 @@ This public repository is a GitHub showcase for the live product. It is meant to
 | --- | --- | --- |
 | Chrome | Live | [Install from Chrome Web Store](https://chromewebstore.google.com/detail/calcsprint/ipfgjadncddiilmlankkmlimngbglnai) |
 | Firefox | Live | [Install from Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/calcsprint/) |
-| Edge | Published | Use the [browser extension page](https://calcsprint.com/browser-extension/) until the direct store URL is confirmed |
+| Edge | Coming soon | Use the [browser extension page](https://calcsprint.com/browser-extension/) for launch updates |
 | Opera | Coming soon | Use the [browser extension page](https://calcsprint.com/browser-extension/) for launch updates |
 
 ## Why It Feels Different
