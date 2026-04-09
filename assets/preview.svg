@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="CalcSprint preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1b2d"/>
+      <stop offset="100%" stop-color="#1f3b67"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2d49"/>
+      <stop offset="100%" stop-color="#15253d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="170" fill="#ffb648" opacity="0.18"/>
+  <circle cx="170" cy="540" r="210" fill="#5bb8ff" opacity="0.14"/>
+  <rect x="84" y="86" width="1032" height="458" rx="36" fill="url(#card)" stroke="#355786" stroke-width="2"/>
+  <text x="120" y="160" fill="#ffb648" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">FAST MENTAL MATH</text>
+  <text x="120" y="254" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700">CalcSprint</text>
+  <text x="120" y="312" fill="#d5e6ff" font-family="Arial, sans-serif" font-size="28">Instant browser drills for speed, rhythm, and repetition.</text>
+  <rect x="120" y="364" width="170" height="52" rx="26" fill="#ffb648"/>
+  <text x="205" y="398" text-anchor="middle" fill="#0f1b2d" font-family="Arial, sans-serif" font-size="24" font-weight="700">Play now</text>
+  <rect x="308" y="364" width="198" height="52" rx="26" fill="#203757" stroke="#4f78a8"/>
+  <text x="407" y="398" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Math blog</text>
+  <rect x="760" y="160" width="280" height="210" rx="28" fill="#132238" stroke="#496f9f"/>
+  <text x="800" y="220" fill="#8bbcff" font-family="Arial, sans-serif" font-size="22" font-weight="700">TODAY'S SPRINT</text>
+  <text x="800" y="282" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="700">18 × 7</text>
+  <text x="800" y="330" fill="#d9e7fb" font-family="Arial, sans-serif" font-size="30">126</text>
+  <rect x="760" y="398" width="128" height="42" rx="21" fill="#1d3555"/>
+  <rect x="902" y="398" width="138" height="42" rx="21" fill="#1d3555"/>
+  <text x="824" y="425" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">4 levels</text>
+  <text x="971" y="425" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">extension</text>
+  <text x="120" y="492" fill="#8fb3df" font-family="Arial, sans-serif" font-size="22">Live at calcsprint.com</text>
+</svg>
